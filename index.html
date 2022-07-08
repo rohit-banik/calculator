@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Calc</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="heading">Simple Calculator</div>
+
+    <div class="container">
+
+        <input type="text" id="display-box" disabled>
+        
+        <button onClick="buttonClick(1)" class="grid-item">1</button>
+        
+        <button onClick="buttonClick(2)" class="grid-item">2</button>
+        
+        <button onClick="buttonClick(3)" class="grid-item">3</button>
+        
+        <button onClick="buttonClick('+')" class="grid-item-symbol">+</button>
+        
+        <button onClick="buttonClick(4)" class="grid-item">4</button>
+        
+        <button onClick="buttonClick(5)" class="grid-item">5</button>
+        
+        <button onClick="buttonClick(6)" class="grid-item">6</button>
+        
+        <button onClick="buttonClick('-')" class="grid-item-symbol">-</button>
+        
+        <button onClick="buttonClick(7)" class="grid-item">7</button>
+        
+        <button onClick="buttonClick(8)" class="grid-item">8</button>
+        
+        <button onClick="buttonClick(9)" class="grid-item">9</button>
+        
+        <button onClick="buttonClick('*')" class="grid-item-symbol">X</button>
+        
+        <button onClick="buttonClick('clear')" class="grid-item-symbol clear">C</button>
+        
+        <button onClick="buttonClick(0)" class="grid-item">0</button>
+        
+        <button onClick="buttonClick('/')" class="grid-item-symbol">&divide;</button>
+        
+        <button onClick="buttonClick('evaluate')" class="grid-item-symbol equal">=</button>    
+    
+    </div>
+
+    <script src="./script.js"></script>
+    
+</body>
+</html>
